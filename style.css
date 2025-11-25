@@ -1,0 +1,54 @@
+#radioS1 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.h2stils {
+  color: black;
+  background-color: gold;
+}
+
+.h2stils {
+  color: blue;
+  background-color: lightgray;
+}
+
+h2 {
+  color: green;
+  background-color: red;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+th {
+    text-align: left;
+}
+table tfoot {
+    text-align: center;
+}
+
+caption {
+    border-top: solid black 1px;
+    border-right: solid black 1px;
+    border-left: solid black 1px;
+    font-weight: bold;
+}
+
+a::selection {
+    background-color: aqua;
+
+}
+
+a:hover {
+    color: burlywood;
+}
+
+li:nth-child(odd){
+    background-color: aquamarine;
+}
+
+/* li:nth-child(odd){
+    background-color: yellow;
+} */

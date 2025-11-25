@@ -4,12 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>Formas un Tabulas</h1>
-    <h2>Formas</h2>
-    <form>
+    <h2 class="h2stils">Formas</h2>
+    <p class="h2stils">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure dolorem
+      nisi illo sit, quaerat ullam modi quos provident quae magni quam labore?
+      Neque laudantium, eveniet fuga voluptas deleniti rem ut.
+    </p>
+    <a href="https://www.w3schools.com/html/html_forms.asp"
+      >HTML Forms W3Schools</a>
+      <br>
+    <form class="h2stils">
       <label for="input1">Input 1:</label>
+      >
       <input type="text" id="input1" />
       <br />
       <label for="radio1">Radio 1:</label>
@@ -21,10 +31,10 @@
         checked
       />
       <br />
-      <label for="radio2">Radio 2:</label>
+      <label class="h2stils" for="radio2">Radio 2:</label>
       <input type="radio" name="radioGroup" id="radio2" value="radio2" />
       <br />
-      <label for="radio3">Radio 3:</label>
+      <label for="radio3" id="radioS1">Radio 3:</label>
       <input type="radio" name="radioGroup" id="radio3" value="radio3" />
       <br />
       <label for="checkbox1">Checkbox 1:</label>
@@ -73,5 +83,58 @@
 
       <br />
     </form>
+    <h2>Tablas</h2>
+    <table>
+      <caption>
+        Tabulas virsraksts
+      </caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Vārds</th>
+          <th>Uzvārds</th>
+          <th>Vecums</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+
+        <tr>
+          <th>Pirmā rinda</th>
+          <td>Jānis</td>
+          <td rowspan="2">Ozols</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <th>Otrā rinda</th>
+          <td>Anna</td>
+          <!-- <td>Bērziņa</td> -->
+          <td>25</td>
+        </tr>
+        <tr>
+          <th>Trešā rinda</th>
+          <td>Ilze</td>
+          <td colspan="2">Kalniņa</td>
+          <!-- <td>28</td> -->
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4">Kājene 1</td>
+        </tr>
+      </tfoot>
+    </table>
+    <ul>
+      <li>teksts</li>
+      <li>teksts</li>
+      <li>teksts</li>
+      <li>teksts</li>
+      <li>teksts</li>
+      <li>teksts</li>
+      <li>teksts</li>
+      <li>teksts</li>
+      <li>teksts</li>
+      <li>teksts</li>
+    </ul>
+    
   </body>
 </html>
